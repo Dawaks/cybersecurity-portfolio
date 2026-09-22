@@ -6,7 +6,7 @@ I created this repository to document some of the hands-on cybersecurity project
 
 ## Projects
 
-### 1. Network Forensics Investigation
+### 1. [Network Forensics Investigation](01-network-forensics-investigation)
 
 Used Wireshark, DHCP logs, and security logs to investigate suspicious activity and trace it from a source IP address to a host device and user account.
 
