@@ -19,19 +19,25 @@ I used Wireshark to analyze the network traffic, checked DHCP logs to match the 
 ### 1. Analyze Network Traffic
 
 I opened the packet capture in Wireshark and used display filters to narrow down the traffic to SMTP packets related to the email activity.
+
 ![SMTP Filter](screenshots/smtp-filter.png)
+
 ### 2. Identify the Source IP Address
 
-After filtering the traffic, I looked through the relevant SMTP packet and identified the source IP address connected to the suspicious activity.![SMTP FROM Filter](screenshots/smtp-from-filter.png)
+After filtering the traffic, I looked through the relevant SMTP packet and identified the source IP address connected to the suspicious activity.
+
+![SMTP FROM Filter](screenshots/smtp-from-filter.png)
 
 ### 3. Match the IP Address to a Device
 
 I reviewed the DHCP logs and matched the source IP address to the device that had been assigned that IP address at the time.
+
 ![DHCP Host Mapping](screenshots/dhcp-host-mapping.png)
 
 ### 4. Review the Security Logs
 
 Once I identified the device, I checked the security logs to find out which user was logged into the system during the incident.
+
 ![Security Log User](screenshots/security-log-user.png)
 
 ## Skills Demonstrated
