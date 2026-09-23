@@ -12,11 +12,11 @@ Used Wireshark, DHCP logs, and security logs to investigate suspicious activity 
 
 **Skills:** Wireshark, SMTP analysis, packet analysis, DHCP log analysis, security log analysis, network forensics, incident investigation.
 
-### 2. Phishing Email Investigation
+### 2. [Phishing Email Investigation](02-phishing-email-investigation)
 
-Analyzed PCAP files in Wireshark to identify phishing emails and trace the source of the malicious activity using SMTP traffic and network metadata.
+Analyzed PCAP files in Wireshark to identify phishing emails, review suspicious email content, and trace the activity back to its source using SMTP and network information.
 
-**Skills:** Wireshark, PCAP analysis, SMTP filtering, phishing detection, email analysis, network forensics.
+**Skills:** Wireshark, PCAP analysis, SMTP filtering, phishing detection, email analysis, source IP identification, network forensics.
 
 ## Tools & Technologies
 
