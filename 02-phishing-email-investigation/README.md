@@ -52,6 +52,7 @@ After identifying the suspicious emails, I reviewed the related network informat
 
 ## What I Learned
 
-This project helped me understand that identifying phishing emails is not only about reading the message itself. Looking at the packet data, SMTP information, and source IP can help provide more evidence about where the activity came from.
+This project helped me understand that phishing investigations are not just about reading the email itself. Looking at the packet data, SMTP information, and source IP can give more information about where the email came from.
 
-It also gave me more practice using Wireshark filters to narrow down network traffic and focus on the information that was most useful for the investigation.
+It also helped me get more comfortable using Wireshark filters to narrow down traffic and focus on the information I needed.
+
