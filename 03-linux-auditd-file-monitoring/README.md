@@ -4,7 +4,7 @@
 
 In this project, I used the Linux Audit daemon (`auditd`) to monitor changes made to files on an Ubuntu system.
 
-I created audit rules to watch for file modifications, made changes to a monitored file, and then reviewed the audit logs to find the events that were generated.
+I created an audit rule to watch a file for changes, edited the file, and then checked the audit logs to see what was recorded.
 
 ## Tools Used
 
@@ -19,27 +19,27 @@ I created audit rules to watch for file modifications, made changes to a monitor
 
 ### 1. Set Up Auditd
 
-I installed `auditd` on the Ubuntu VM and checked that the service was running correctly before creating any monitoring rules.
+I installed `auditd` on my Ubuntu VM and checked that the service was running before creating any rules.
 
 ### 2. Create a File to Monitor
 
-I created a test file and added some content to it using Vim. This gave me a file that I could use to test the monitoring rule.
+I created a test file and added some content to it using Vim. I used this file to test whether Audit could detect changes made to it.
 
 ### 3. Create an Audit Rule
 
-I created an audit rule that watched the file for write activity.
+I created an audit rule to watch the file for write activity.
 
-The rule used a filter key so I could easily search for events connected to that specific file later.
+I also added a filter key to the rule so I could easily search for events connected to that file later.
 
 ### 4. Trigger the Rule
 
-After setting up the rule, I modified the monitored file to generate an audit event.
+After setting up the rule, I made a change to the monitored file so that Audit would record the activity.
 
 ### 5. Review the Audit Logs
 
-I first looked at the audit log and saw how much information was being recorded.
+I first looked through the audit log and noticed that it contained a lot of system activity.
 
-I then used `ausearch` with the filter key to narrow the results down to the events related to the file I was monitoring.
+I then used `ausearch` with the filter key from my rule to narrow down the results and find the events connected to the file I changed.
 
 ## Skills Demonstrated
 
@@ -57,4 +57,4 @@ I then used `ausearch` with the filter key to narrow the results down to the eve
 
 This project helped me understand how host-based monitoring can be used to track changes made directly on a system.
 
-I also learned how audit rules and filter keys make it easier to find specific activity in large audit logs. Instead of searching through every event manually, I could use the rule key to focus on the activity I wanted to investigate.
+I also learned how useful filter keys can be when working with large audit logs. Instead of going through every event manually, I could search using the key from my rule and quickly find the activity I was looking for.
