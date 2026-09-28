@@ -8,18 +8,20 @@ I created an audit rule to watch a file for changes, edited the file, and then c
 
 ## Tools Used
 
-* Ubuntu/Linux
-* auditd
-* auditctl
-* ausearch
-* Vim
-* Linux command line
+- Ubuntu/Linux
+- auditd
+- auditctl
+- ausearch
+- Vim
+- Linux command line
 
 ## Investigation Process
 
 ### 1. Set Up Auditd
 
 I installed `auditd` on my Ubuntu VM and checked that the service was running before creating any rules.
+
+![Auditd Status](screenshots/auditd-status.png)
 
 ### 2. Create a File to Monitor
 
@@ -31,6 +33,8 @@ I created an audit rule to watch the file for write activity.
 
 I also added a filter key to the rule so I could easily search for events connected to that file later.
 
+![Audit Rule](screenshots/audit-rule.png)
+
 ### 4. Trigger the Rule
 
 After setting up the rule, I made a change to the monitored file so that Audit would record the activity.
@@ -41,17 +45,19 @@ I first looked through the audit log and noticed that it contained a lot of syst
 
 I then used `ausearch` with the filter key from my rule to narrow down the results and find the events connected to the file I changed.
 
+![Ausearch Results](screenshots/ausearch-results.png)
+
 ## Skills Demonstrated
 
-* Linux system monitoring
-* Auditd configuration
-* File integrity monitoring
-* Audit rule creation
-* Linux log analysis
-* Host-based intrusion detection
-* Command-line investigation
-* Event filtering
-* Incident investigation
+- Linux system monitoring
+- Auditd configuration
+- File integrity monitoring
+- Audit rule creation
+- Linux log analysis
+- Host-based intrusion detection
+- Command-line investigation
+- Event filtering
+- Incident investigation
 
 ## What I Learned
 
