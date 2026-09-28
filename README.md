@@ -18,6 +18,12 @@ Analyzed PCAP files in Wireshark to identify phishing emails, review suspicious 
 
 **Skills:** Wireshark, PCAP analysis, SMTP filtering, phishing detection, email analysis, source IP identification, network forensics.
 
+### 3. [Linux File Monitoring with Auditd](03-linux-auditd-file-monitoring)
+
+Used Linux `auditd` to monitor file changes, create audit rules, and review audit logs to identify activity on a monitored file.
+
+**Skills:** Linux, auditd, auditctl, ausearch, file integrity monitoring, log analysis, host-based intrusion detection, incident investigation.
+
 ## Tools & Technologies
 
 Wireshark | Splunk | Nmap | Linux | Windows | AWS | Azure | Python | PowerShell | Active Directory
