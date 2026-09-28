@@ -31,4 +31,3 @@ Wireshark | Splunk | Nmap | Linux | Windows | AWS | Azure | Python | PowerShell 
 ## About This Portfolio
 
 I will continue adding projects as I work on more cybersecurity labs, investigations, and security-related projects.
-
