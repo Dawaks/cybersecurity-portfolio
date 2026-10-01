@@ -34,6 +34,8 @@ I verified that the monitoring rules were active using:
 sudo auditctl -l
 ```
 
+![Audit Rules](screenshots/audit-rules.png)
+
 ### 2. Run the Simulated Attacks
 
 Three attack executables were used to modify unknown files:
@@ -55,6 +57,24 @@ sudo ausearch -ts recent | grep -E 'key=|name='
 ```
 
 The audit events showed both the affected file and the executable responsible for modifying it.
+
+### Attack A
+
+The audit logs showed that `attack-a` modified `cloudia.txt`.
+
+![Attack A Result](screenshots/attack-a-result.png)
+
+### Attack B
+
+The audit logs showed that `attack-b` modified both `oakley.txt` and `squeaky.txt`.
+
+![Attack B Result](screenshots/attack-b-result.png)
+
+### Attack C
+
+The audit logs showed that `attack-c` modified `precipitation.csv`.
+
+![Attack C Result](screenshots/attack-c-result.png)
 
 ## Findings
 
