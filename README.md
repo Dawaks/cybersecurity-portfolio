@@ -24,7 +24,7 @@ Used Linux `auditd` to monitor file changes, create audit rules, and review audi
 
 **Skills:** Linux, auditd, auditctl, ausearch, file integrity monitoring, log analysis, host-based intrusion detection, incident investigation.
 
-4. Linux Auditd Attack Investigation
+### 4. Linux Auditd Attack Investigation
 
 Used Linux Audit (auditd) to monitor protected files, analyze audit logs, and identify which simulated attack scripts modified specific files on the system.
 
