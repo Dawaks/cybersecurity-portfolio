@@ -30,6 +30,12 @@ Used Linux Audit (auditd) to monitor protected files, analyze audit logs, and id
 
 Skills: Linux, auditd, auditctl, ausearch, file integrity monitoring, log analysis, incident investigation, host-based intrusion detection, attack attribution.
 
+### 5. [Snort Network Intrusion Detection](05-snort-network-intrusion-detection)
+
+Used Snort 3 to analyze PCAP traffic, create custom intrusion-detection rules, and identify credential file access and directory traversal activity while improving rule specificity to reduce unnecessary alerts.
+
+**Skills:** Snort, NIDS, PCAP analysis, tcpdump, network traffic analysis, signature-based detection, rule tuning, incident investigation.
+
 ## Tools & Technologies
 
 Wireshark | Splunk | Nmap | Linux | Windows | AWS | Azure | Python | PowerShell | Active Directory
