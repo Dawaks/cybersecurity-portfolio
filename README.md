@@ -36,6 +36,12 @@ Used Snort 3 to analyze PCAP traffic, create custom intrusion-detection rules, a
 
 **Skills:** Snort, NIDS, PCAP analysis, tcpdump, network traffic analysis, signature-based detection, rule tuning, incident investigation.
 
+### 6. [Snort Directory Traversal Investigation](06-snort-directory-traversal-investigation)
+
+Exploited a directory-traversal vulnerability in a controlled lab, created Snort rules to detect the attack, and analyzed packet captures to determine which files the attacker successfully accessed.
+
+**Skills:** Snort, IDS rule creation, tcpdump, PCAP analysis, directory traversal, network intrusion detection, breach scoping, Linux permissions, incident investigation, security remediation.
+
 ## Tools & Technologies
 
 Wireshark | Splunk | Nmap | Linux | Windows | AWS | Azure | Python | PowerShell | Active Directory
